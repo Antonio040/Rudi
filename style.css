@@ -13,3 +13,20 @@ h1
     text-align: center;
     font-family: cursive;
 }
+
+h2
+{
+    color: rgb(0, 0, 146);
+    font-size: 30px;
+}
+.rudiDog
+{
+    display: block;
+    margin-top: -150px;
+    border: purple 5px solid;
+}
+p
+{
+    color: rgb(0, 0, 146);
+    font-size: 20px;
+}
