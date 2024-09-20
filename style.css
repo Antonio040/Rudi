@@ -19,11 +19,26 @@ h2
     color: rgb(0, 0, 146);
     font-size: 30px;
 }
+
+h3
+{
+    color: rgb(0, 0, 146);
+}
 .rudiDog
 {
     display: block;
+    float: left;
     margin-top: -150px;
     border: purple 5px solid;
+    caption-side: bottom;
+}
+figcaption
+{
+    color: purple;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 780px;
+    text-align: center;
 }
 p
 {
