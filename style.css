@@ -20,6 +20,14 @@ body
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.image-section {
+    display: flex; /* Flexbox makes centering easier */
+    flex-direction: column !important; /* Stacks the image and the caption vertically */
+    justify-content: center !important; /* Centers the image and caption vertically */
+    align-items: center !important; /* Centers the image and caption horizontally */
+    margin: 0 auto !important; /* Centers the figure within its container */
+}
 h1
 {
     color: rgb(0, 0, 146);
@@ -34,29 +42,13 @@ h2
     font-size: 30px;
 }
 
-h3
+figure
 {
-    color: rgb(0, 0, 146);
+    border: solid 5px purple !important;
+    float: center;
+    width: 200px;
 }
-
-.rudiDog img
+figcaption
 {
-    display: block;
-    margin-left: 1050px;
-    margin-top: -50px;
-    border: 5px solid purple
-}
-
-h1 {
-    font-size: 2.5rem;
-    color: #6a0dad; /* Adjust title color */
-}
-
-p {
-    font-size: 1.2rem;
-}
-
-a {
-    color: blue;
-    text-decoration: underline;
+    font-size: 20px;
 }
