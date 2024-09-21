@@ -18,14 +18,30 @@ body
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
-
+p
+{
+    font-size: 20px;
+}
+.image.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .image-section {
     display: flex; /* Flexbox makes centering easier */
     flex-direction: column; /* Stacks the image and the caption vertically */
     justify-content: center; /* Centers the image and caption vertically */
-    align-items: center; /* Centers the image and caption horizontally */
+    align-items: center; /* Centers the image and caption horizontallys; */
     margin: 0 auto; /* Centers the figure within its container */
+    transition: all 2;
+    
+}
+.image-section:hover {
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    transform: scale(1.1); /* Enlarge the image on hover */
 }
 h1
 {
