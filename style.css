@@ -6,10 +6,24 @@ body
     padding: 0;
 
 }
-
+.header
+{
+    color: rgb(0 0 146);
+    text-align: center;
+    padding: 10px;
+}
+.text-section
+{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 h1
 {
-    color: rebeccapurple;
+    color: rgb(0, 0, 146);
+    font-size: 50px;
     text-align: center;
     font-family: cursive;
 }
@@ -24,24 +38,25 @@ h3
 {
     color: rgb(0, 0, 146);
 }
-.rudiDog
+
+.rudiDog img
 {
     display: block;
-    float: left;
-    margin-top: -150px;
-    border: purple 5px solid;
-    caption-side: bottom;
+    margin-left: 1050px;
+    margin-top: -50px;
+    border: 5px solid purple
 }
-figcaption
-{
-    color: purple;
-    font-size: 20px;
-    font-family: cursive;
-    margin-left: 780px;
-    text-align: center;
+
+h1 {
+    font-size: 2.5rem;
+    color: #6a0dad; /* Adjust title color */
 }
-p
-{
-    color: rgb(0, 0, 146);
-    font-size: 20px;
+
+p {
+    font-size: 1.2rem;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
 }
