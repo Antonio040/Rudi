@@ -23,10 +23,10 @@ body
 
 .image-section {
     display: flex; /* Flexbox makes centering easier */
-    flex-direction: column !important; /* Stacks the image and the caption vertically */
-    justify-content: center !important; /* Centers the image and caption vertically */
-    align-items: center !important; /* Centers the image and caption horizontally */
-    margin: 0 auto !important; /* Centers the figure within its container */
+    flex-direction: column; /* Stacks the image and the caption vertically */
+    justify-content: center; /* Centers the image and caption vertically */
+    align-items: center; /* Centers the image and caption horizontally */
+    margin: 0 auto; /* Centers the figure within its container */
 }
 h1
 {
@@ -44,7 +44,7 @@ h2
 
 figure
 {
-    border: solid 5px purple !important;
+    border: solid 5px purple;
     float: center;
     width: 200px;
 }
