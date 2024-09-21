@@ -27,6 +27,7 @@ body
     justify-content: center; /* Centers the image and caption vertically */
     align-items: center; /* Centers the image and caption horizontally */
     margin: 0 auto; /* Centers the figure within its container */
+    transition: background 0.5s;
 }
 h1
 {
