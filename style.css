@@ -4,7 +4,6 @@ body
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-
 }
 .header
 {
@@ -27,13 +26,11 @@ body
     justify-content: center; /* Centers the image and caption vertically */
     align-items: center; /* Centers the image and caption horizontally */
     margin: 0 auto; /* Centers the figure within its container */
-    transition: background 0.5s;
 }
 h1
 {
     color: rgb(0, 0, 146);
     font-size: 50px;
-    text-align: center;
     font-family: cursive;
 }
 
@@ -46,17 +43,13 @@ h2
 figure
 {
     border: solid 5px purple;
+    border-radius: 10px;
     float: center;
     width: 200px;
 }
 figcaption
 {
     font-size: 20px;
-}
-.giraffe-text-section
-{
-    color: rgb(0 0 146);
-    padding: 10px;
 }
 .girafeRudi img
 {
